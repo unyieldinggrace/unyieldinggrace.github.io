@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.TopTitle {
+    background-color: #001c37;
+    margin-bottom: 2rem;
+}
+
+.TopLinks {
+    margin-bottom: 2rem;
+}
+
+.IntroText, .SpecialThanks {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 52rem;
+    text-align: left;
+}
+
+a {
+    color: navy;
+}
+
+a:hover {
+    color: deepskyblue;
+}
+
+.TopLinks a {
+    display: inline-block;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.VideoTitle {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.Donations {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 26rem;
+    overflow-wrap: break-word;
+}

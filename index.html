@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<title>NanoFusion</title>
+		<script type="text/javascript" charset="utf8" async="" src="http://www.youtube.com/iframe_api"></script>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+<body>
+	<div class="TopTitle">
+		<img src="nanofusion-logo.png" />
+	</div>
+	<div class="Body">
+		<div class="TopLinks">
+			<a href="https://github.com/unyieldinggrace/nanofusion">GitHub Repo</a>
+			<a href="https://github.com/unyieldinggrace/nanofusion/blob/master/README.md">Technical Whitepaper</a>
+		</div>
+		<div class="IntroText">
+			<p>
+				NanoFusion is a protocol and implementation for trustless mixing of funds on the Nano cryptocurrency network. Trustless mixing
+				improves financial privacy for Nano users. NanoFusion achieves trustless mixing by using a binary tree of aggregate-signature
+				accounts to combine funds from many accounts into one (without any risk that funds could be stolen), then sending those funds
+				to new accounts controlled by the original owners.
+			</p>
+			<p>
+				Some cool technical details:
+				<ul>
+					<li>NanoFusion is loosely inspired by <a href="https://github.com/cashshuffle/spec/blob/master/CASHFUSION.md">CashFusion for Bitcoin Cash</a>.</li>
+					<li>NanoFusion implements the
+						<a href="https://github.com/KZen-networks/multi-party-eddsa/wiki/Aggregated-Ed25519-Signatures">Ed25519 Aggregated Signature</a>
+						algorithm published by KZenNetworks, but using Blake2B hashes for Nano compatibility.</li>
+					<li>NanoFusion works purely in client-side Javascript, requiring zero changes to the existing Nano node software.</li>
+				</ul>
+			</p>
+		</div>
+		<div class="FeaturedVideos">
+			<div class="VideoTitle">Part 1: Joint Account Demo</div>
+			<div class="VideoContainer">
+				<iframe allowfullscreen="1"
+						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+						title="YouTube video player"
+						src="https://www.youtube.com/embed/E-m64VPORbw?enablejsapi=1&amp;origin=http%3A%2F%2Flocalhost%3A3000&amp;widgetid=1"
+						id="widget2"
+						width="640"
+						height="390"
+						frameborder="0">
+				</iframe>
+			</div>
+			<div class="VideoTitle">Part 2: Trustless Mixing (Video Whitepaper)</div>
+			<div class="VideoContainer">
+				<iframe allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" src="https://www.youtube.com/embed/CtMMETZcAQY?enablejsapi=1&amp;origin=http%3A%2F%2Flocalhost%3A3000&amp;widgetid=3" id="widget4" width="640" height="390" frameborder="0"></iframe>
+			</div>
+		</div>
+		<div class="SpecialThanks">
+			<p>
+				A few words of thanks to the following people:
+				<ul>
+					<li>Thanks to PlasmaPower, who gave me pointers while I was getting my head around some of the Ed25519 elliptic-curve stuff.</li>
+					<li>Thanks to Srayman who helped me troubleshoot my node set-up.</li>
+				</ul>
+			</p>
+		</div>
+		<div class="Donations">
+			<div style="font-weight: bold;">Donate:</div>
+			<div>
+				<img src="data:image/gif;base64,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" />
+			</div>
+			<div class="DonateAddress">nano_1pkhz7jjfda3gsky45jk5oeodmid87fsyecqrgopxhnhuzjrurwd8fdxcqtg</div>
+		</div>
+	</div>
+</body>
+</html>
